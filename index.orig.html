@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Basic html layout example</title>
+    <link rel="stylesheet" href="style01.css">
+</head>
+<body class="hello">
+<header>
+    <h1>Control Heidi</h1>
+</header>
+<nav>
+
+</nav>
+<section>
+<!--
+    <video class="vjs-tech" playsinline="playsinline" id="vjs_video_3_html5_api" tabindex="-1" src="blob:https://videojs.com/2ad59c64-508e-4518-ad85-4d3713a1b51b"></video>
+-->
+    <video id="my_video_1" class="video-js vjs-default-skin" width="640px" height="267px"
+           controls preload="none" poster='http://video-js.zencoder.com/oceans-clip.jpg'
+           data-setup='{ "aspectRatio":"640:267", "playbackRates": [1, 1.5, 2] }'>
+
+        <source src="//vjs.zencdn.net/v/oceans.mp4" type='video/mp4'>
+        <source src="//vjs.zencdn.net/v/oceans.webm" type='video/webm'>
+        <p class="vjs-no-js">
+            To view this video please enable JavaScript, and consider upgrading to a
+            web browser that
+            <a href="https://videojs.com/html5-video-support/" target="_blank"
+            >supports HTML5 video</a
+            >
+        </p>
+    </video>
+</section>
+<aside>
+
+</aside>
+<footer>
+    <img src="img/game-controller.png" height="256" width="256"/></footer>
+</body>
+</html>
